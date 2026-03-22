@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <nav class="footer__nav" aria-label="Footer">
+      <a
+        routerLink="/home"
+        routerLinkActive="is-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+      <a routerLink="/about" routerLinkActive="is-active">About</a>
+      <a routerLink="/contact" routerLinkActive="is-active">Contact</a>
+    </nav>
+    <p class="footer__copy">&copy; {{ year }} Angular Nav App</p>
+  </div>
+</footer>

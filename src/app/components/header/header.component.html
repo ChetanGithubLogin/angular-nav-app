@@ -1,0 +1,15 @@
+<header class="header">
+  <div class="header__inner">
+    <a routerLink="/home" class="header__brand">{{ title }}</a>
+    <nav class="header__nav" aria-label="Main">
+      <a
+        routerLink="/home"
+        routerLinkActive="is-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+      <a routerLink="/about" routerLinkActive="is-active">About</a>
+      <a routerLink="/contact" routerLinkActive="is-active">Contact</a>
+    </nav>
+  </div>
+</header>
